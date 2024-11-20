@@ -1,0 +1,20 @@
+/* display: flex; - Use flexbox to create a responsive grid layout for the cards.
+
+flex-wrap: wrap; - Allow cards to wrap to the next row if necessary.
+
+gap: Set a gap between the cards to ensure there is consistent spacing (e.g., gap: 16px;).
+
+justify-content: center; - Center the cards within the container.
+
+margin-top: Add spacing at the top of the container (e.g., margin-top: 20px;). */
+
+
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+  margin-top: 20px;
+}
+

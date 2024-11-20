@@ -1,0 +1,51 @@
+/* Define a container for the card:
+
+width and height: Set fixed dimensions to keep cards uniform (e.g., width: 200px; height: 250px;).
+margin: Add space between cards for neat grid layout (e.g., margin: 10px;).
+padding: Add padding inside the card for better spacing (e.g., padding: 10px;).
+cursor: pointer: Add pointer cursor to indicate interactivity.
+box-shadow: Add a subtle shadow for depth.
+Hover Effect:
+
+On hover, add a transform effect:
+transform: scale(1.05): Slightly enlarge the card to show it's being interacted with.
+transition: Use a smooth transition effect (e.g., transition: transform 0.2s ease-in-out;).
+Define styles for the card image:
+
+width: 100%; - Ensure the image stretches across the full width of the card.
+height: auto; - Maintain the image aspect ratio.
+border-radius: Set rounded corners (e.g., border-radius: 8px;).
+Define styles for the card title:
+
+text-align: center; - Center-align the text.
+font-size: Set an appropriate size for readability (e.g., font-size: 1rem;).
+margin-top: Add spacing between the image and title (e.g., margin-top: 8px;). */
+
+.card {
+  width: 200px;
+  height: auto;
+  margin: 10px;
+  padding: 10px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.63);
+  transition: transform 0.2s ease-in-out;
+  border-radius: 8px;
+  background-color: #f5f5f5;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.card h2 {
+  text-align: center;
+  font-size: 1rem;
+  margin-top: 8px;
+}
+

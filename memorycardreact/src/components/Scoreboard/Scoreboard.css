@@ -1,0 +1,22 @@
+/* Define a container for the Scoreboard:
+display: flex; - Use flexbox to arrange items.
+justify-content: space-between; - Align the current score and best score with space between them.
+padding: 16px; - Add padding for spacing.
+background-color: dark color (e.g., #282c34); - Set a background color to distinguish it from the rest of the content.
+border-radius: 8px; - Add rounded corners for a softer look.
+Define styles for the score text:
+font-size: large (e.g., 1.5rem); - Make the text easy to read.
+color: light color (e.g., white or light grey); - Set text color to contrast against the background.
+Use bold font for bestScore to highlight it. */
+
+.scoreboard {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  background-color: #282c34;
+  border-radius: 8px;
+  font-size: 1.5rem;
+  color: white;
+  gap: 2rem;
+}
+
